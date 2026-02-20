@@ -3,7 +3,7 @@
 Summary:	Annotation Database Interface
 Name:		R-%{packname}
 Version:	1.24.0
-Release:	1
+Release:	2
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
