@@ -1,14 +1,15 @@
 %define		packname	AnnotationDbi
 
+%undefine	_debugsource_packages
 Summary:	Annotation Database Interface
 Name:		R-%{packname}
-Version:	1.24.0
-Release:	2
+Version:	1.72.0
+Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	a51f84efd8fff2f48579189ebc67c508
-URL:		http://bioconductor.org/packages/release/bioc/html/AnnotationDbi.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	dab5c3c6d38999d7f3d0c16dd93d1780
+URL:		https://bioconductor.org/packages/release/bioc/html/AnnotationDbi.html
 BuildRequires:	R-Biobase
 BuildRequires:	R-BiocGenerics
 BuildRequires:	R-cran-DBI
